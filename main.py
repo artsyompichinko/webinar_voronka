@@ -98,8 +98,8 @@ def bot_init() -> Client:
     Пример использования:
         bot = bot_init()
     """
-    api_hash: str = "867810dbb052455b9a79154a74184af0"
-    api_id: str = "21416356"
+    api_hash: str = "ВАШ_АПИ_ХЭШ"
+    api_id: str = "ВАШ_АПИ_ID"
     bot: Client = Client(name="my_account", api_id=api_id, api_hash=api_hash)
     return bot
 
